@@ -1,21 +1,12 @@
-# SSA
+# SSA JAVA COMPILER
 
 ## Overview
 
-This is a mini java compiler. Written in Flex (Lex) and Bison (Yacc). In addition to a GUI written in QT6 and Qt Widgets
-### Warnings & Errors
-![](./resources/demo.png)
-### Code Generation
-![](./resources/demo2.png)
-
-
-## Technical Overview
-
+This SSA(Samer-Salma-Amira) mini Java compiler is designed to perform lexical, syntactic, and semantic analysis of Java source code. It is implemented using Flex (Lex) and Bison (Yacc), two powerful tools for generating scanners and parsers. The compiler also includes a user-friendly graphical user interface (GUI) developed using the QT6 framework and Qt Widgets.### Warnings & Errors
 
 ### Core
 
-The `SSA-core` represents the core functionalities of the compiler. It accepts text from a file, **analyzes** it and generates the appropriate **syntax** and **semantic** errors.
-
+The SSA-core is the heart of the compiler, handling the essential functions. It reads input text from a file, performs analysis, and detects any syntax or semantic errors.
 It's possible to run The Core application as a standalone. For more instructions check [The Core README](./SSA-core/README.md)
 
 #### Components
@@ -29,7 +20,6 @@ It's possible to run The Core application as a standalone. For more instructions
 ### GUI
 
 The `SSA-gui` represents the Gui application. The Gui is written entirely in Qt 6 and Qt Widgets. No Ui files have been used in the process ( meaning all the components are written as code, offering more flexibility). For more information check [The Gui README](./SSA-gui/README.md)
-
 
 
 ## Build 
