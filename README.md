@@ -55,4 +55,5 @@ After the build phase, a binary `SSA` will be generated. That's your **entry poi
 ```bash
 ./SSA
 ``` 
+[comiler_demo.webm](https://github.com/SamerBenMim/Java-Compiler/assets/79151541/60c766b4-9021-4020-a907-9a467b35b936)
 
